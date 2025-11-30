@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Free Invoice Generator | Lumina AI - Create Professional PDF Invoices Online</title>
+    <meta name="title" content="Free Invoice Generator | Lumina AI - Create Professional PDF Invoices Online" />
+    <meta name="description" content="Use Lumina's Free AI Invoice Generator to create professional PDF invoices in seconds. Features GST/Tax support, currency conversion, AI terms generator, and instant download. No signup required for guest mode." />
+    <meta name="keywords" content="invoice generator, free invoice maker, ai invoice, pdf invoice, bill generator, gst invoice, online invoicing, invoice template, business invoice, receipt maker, free billing software" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Lumina Invoice" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lumina-invoice.app/" />
+    <meta property="og:title" content="Free Invoice Generator | Lumina AI" />
+    <meta property="og:description" content="Create professional invoices in seconds with Lumina. #1 Free AI Invoice Generator with PDF export, GST support, and AI-written terms." />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Free Invoice Generator | Lumina AI" />
+    <meta property="twitter:description" content="The smartest way to invoice. Free, fast, and AI-powered." />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Lumina Invoice Generator",
+      "url": "https://lumina-invoice.app",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "A smart, AI-enhanced invoice generator that auto-calculates totals, drafts professional terms using Gemini, and exports to clean PDFs.",
+      "featureList": "PDF Export, AI Terms Generator, Currency Conversion, GST Support, Client Management"
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f3f4f6;
+        overflow-x: hidden;
+      }
+      /* Custom scrollbar for webkit */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8; 
+      }
+      .dark ::-webkit-scrollbar-thumb {
+        background: #475569;
+      }
+      .dark ::-webkit-scrollbar-thumb:hover {
+        background: #64748b;
+      }
+      .print-hide {
+        display: block;
+      }
+      @media print {
+        body > * {
+          display: none !important;
+        }
+        body > .print-mount-node {
+          display: block !important;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 9999;
+          background: white;
+        }
+        .print-mount-node > div {
+             transform: none !important;
+             box-shadow: none !important;
+             margin: 0 auto !important;
+             page-break-after: always;
+             width: 210mm !important;
+             min-height: 297mm !important;
+        }
+        * {
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "jspdf": "https://aistudiocdn.com/jspdf@^3.0.4",
+    "html2canvas": "https://aistudiocdn.com/html2canvas@^1.4.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "d3": "https://aistudiocdn.com/d3@^7.9.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
